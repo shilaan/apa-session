@@ -31,6 +31,10 @@ style_duo(primary_color = "#ffffff",
           secondary_color = "#035AA6")
 ```
 
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
 
 ## Writing reproducible manuscripts in R
 [**Shilaan Alzahawi**](http://shilaan.rbind.io) @ Stanford Graduate School of Business  
