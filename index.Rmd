@@ -73,8 +73,14 @@ Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 **How?**
 
 🛠 $~$ Tutorial   
-$~~~~~$ An introduction to **R Markdown** (pt. 1)  
-$~~~~~$ An introduction to **papaja** (pt. 2)
+$~~~~~~$ pt. 1: An introduction to **R Markdown**   
+$~~~~~~$ pt. 2: An introduction to **papaja**   
+
+--
+
+$~~$  
+Example manuscript at [github.com/shilaan/apa-session](https://github.com/shilaan/apa-session/tree/master/example_manuscript)
+
 
 ---
 background-image: url("https://github.com/allisonhorst/stats-illustrations/raw/master/make-your-own-stats-cartoons/ex_3.png")
