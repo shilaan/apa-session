@@ -60,7 +60,7 @@ Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 
 **What?** 
 
-📝  $~$ Dynamic and reproducible manuscripts
+📝  $~$ Reproducible manuscripts
 
 --
 
