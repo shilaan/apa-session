@@ -3,7 +3,7 @@ title: "Workshop: Writing reproducible APA-style manuscripts in R"
 subtitle: ""
 author: "Shilaan Alzahawi"
 institute: "Stanford Graduate School of Business"
-date: "July 12, 2021"
+date: "October 21, 2021"
 output:
   xaringan::moon_reader:
     seal: false
@@ -27,6 +27,7 @@ options(htmltools.dir.version = FALSE)
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
+library(icons)
 style_duo(primary_color = "#ffffff", 
           secondary_color = "#035AA6")
 ```
@@ -57,15 +58,9 @@ Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 
 --
 
-**Introductions**  
-
-🧊🔨 $~$ Breaking the ice @ vIACM
-
---
-
 **What?** 
 
-📝  $~$ Dynamic and Reproducible Manuscripts
+📝  $~$ Dynamic and reproducible manuscripts
 
 --
 
@@ -78,32 +73,26 @@ Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 **How?**
 
 🛠 $~$ Tutorial   
-$~~~~~~$ An introduction to **R Markdown** (pt. 1)  
-$~~~~~~$ An introduction to **papaja** (pt. 2)
+$~~~~~$ An introduction to **R Markdown** (pt. 1)  
+$~~~~~$ An introduction to **papaja** (pt. 2)
 
 ---
 background-image: url("https://github.com/allisonhorst/stats-illustrations/raw/master/make-your-own-stats-cartoons/ex_3.png")
 background-position: 100% 90%
 background-size: 38%
 
-# Introductions 🧊🔨 
+# Introduction 🧊🔨 
 
 --
 
-PhD student in Organizational Behavior at Stanford GSB  
 
-🔎 $~$ Statistical inference  & hypothesis testing  
+
+**Statistics** @ Ghent University  
+**Organizational Behavior** @ Stanford GSB  
+
+🔎 $~$ Statistical inference & hypothesis testing  
 🔎 $~$ Open and reproducible science  
 🔎 $~$ Crowdsourced & big team science
-
---
-
-$~$   
-... your turn!  
-► $~$ Brief introduction  
-► $~$ What do you hope to get out of this workshop?  
-► $~$ Previous experience with R, RStudio, and RMarkdown?
-
 
 
 ---
@@ -296,18 +285,14 @@ Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 --
 
 - Output formats include HTML, PDF, Word and...  
-🤩 Slide shows    
+🤩 Slide shows ([bit.ly/shilaan-apa](https://shilaan-apa.netlify.app))    
 🤩 Websites ([shilaan.rbind.io](http://shilaan.rbind.io))  
 🤩 Blogs  
 🤩 Books  
 🤩 Dashboards  
+🤩 Interactive documents   
+🤩 Conference posters  
 🤩 Manuscripts  
-🤩 Interactive documents
-
---
-
-**Bonus question**
-How did I create my slides...?
 
 ---
 background-image: url("images/manuscript.png")
@@ -335,23 +320,16 @@ background-size: contain
 #### Are there good reasons for **not** using **RMarkdown**?
 
 --
-.pull-left[
-```{r, echo = FALSE, out.width='100%'}
-knitr::include_graphics("images/not-rmd.png")
-```
-]
+
+`r icon_style(icons::fontawesome("exclamation-triangle"), scale = 1.5, fill = "#035AA6")` $~~$ Barriers to **collaborating** with others (requires additional tools: **Git/GitHub**)  
+
 
 --
 
-.pull-right[
-```{r, echo = FALSE, out.width='100%'}
-knitr::include_graphics("images/not-rmd2.png")
-```
-]
+`r icon_style(icons::fontawesome("exclamation-triangle"), scale = 1.5, fill = "#035AA6")` $~~$ Not the best format for **computationally expensive functions** 
 
-
-
-
+--
+`r icon_style(icons::fontawesome("question-circle"), scale = 1.5, fill = "#035AA6")` $~~~$ Anything else?
 
 ---
 
@@ -371,7 +349,7 @@ class: inverse, center, middle
 
 ```{r eval=FALSE, tidy=FALSE}
 install.packages("rmarkdown")
-install.packages('tinytex') # for generating PDF output
+install.packages("tinytex") # for generating PDF output
 tinytex::install_tinytex()  # install TinyTeX
 ```
 
