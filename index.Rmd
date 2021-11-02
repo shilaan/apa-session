@@ -79,8 +79,11 @@ $~~~~~~$ pt. 2: An introduction to **papaja**
 --
 
 $~~$  
-Example manuscript at [github.com/shilaan/apa-session](https://github.com/shilaan/apa-session/tree/master/example_manuscript)
+Example manuscripts at [github.com/shilaan/example-manuscripts](https://github.com/shilaan/example-manuscripts)  
 
+???
+
+This repo includes a link to the slides and instructions for installing R, RStudio, and RMarkdown, and for cloning the contents of the repository to your local computer. Once you've cloned the contents of this repo, you'll be able to follow along at your own pace and take a look at three fully reproducible manuscripts generated with R Markdown.  
 
 ---
 background-image: url("https://github.com/allisonhorst/stats-illustrations/raw/master/make-your-own-stats-cartoons/ex_3.png")
