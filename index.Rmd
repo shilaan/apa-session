@@ -112,6 +112,9 @@ Example manuscripts at [github.com/shilaan/example-manuscripts](https://github.c
 On the slides, I'm sharing a link to a GitHub repo with example manuscripts that you can look at now, or look at later for future reference if you're inspired to give the things I'll discuss today a try in one of your future projects.  
 
 This repo includes a link to the slides and instructions for installing R, RStudio, and RMarkdown, and for cloning the contents of the repository to your local computer. Once you've cloned the contents of this repo, you'll be able to follow along at your own pace and take a look at three fully reproducible manuscripts generated with R Markdown.  
+
+During this talk, I'll really start with the basics, so if you've already had some prior exposure to R and RMarkdown then you may want to start with the online materials on GitHub instead.
+
 ---
 
 # The typical workflow
