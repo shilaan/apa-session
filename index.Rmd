@@ -77,9 +77,6 @@ $~~$
 
 # Outline
 
-???
-
-I'll first give a very brief conceptual introduction to the what and why of reproducible manuscripts, and then we'll spend the bulk of our time on the practical aspects of writing fully reproducible manuscripts. 
 
 --
 
@@ -107,13 +104,7 @@ $~~~~~~$ pt. 2: An introduction to **papaja**
 $~~$  
 Example manuscripts at [github.com/shilaan/example-manuscripts](https://github.com/shilaan/example-manuscripts)  
 
-???
 
-On the slides, I'm sharing a link to a GitHub repo with example manuscripts that you can look at now, or look at later for future reference if you're inspired to give the things I'll discuss today a try in one of your future projects.  
-
-This repo includes a link to the slides and instructions for installing R, RStudio, and RMarkdown, and for cloning the contents of the repository to your local computer. Once you've cloned the contents of this repo, you'll be able to follow along at your own pace and take a look at three fully reproducible manuscripts generated with R Markdown.  
-
-During this talk, I'll really start with the basics, so if you've already had some prior exposure to R and RMarkdown then you may want to start with the online materials on GitHub instead.
 
 ---
 
@@ -121,9 +112,6 @@ During this talk, I'll really start with the basics, so if you've already had so
 
 When writing a scientific report, the typical workflow is to ...
 
-???
-
-Now you may have attended Mike’s conceptual talk on this topic last week, in which case you’ll see some overlap in the Workflow that I’m about to introduce and the personal experiences that Mike discussed last week. 
 
 --
 
@@ -151,9 +139,6 @@ Now you may have attended Mike’s conceptual talk on this topic last week, in w
 What are common challenges when working in this fashion?  
 What kind of problems could arise?
 
-???
-
-A question to keep in mind when we discuss this workflow is what kind of challenges or problems could arise, and maybe what kind of problems you've personally experienced while working in this fashion. Of course feel free to comment in the chat if you want to share your thoughts or horror stories. 
 
 ---
 class:center, middle
@@ -174,17 +159,11 @@ knitr::include_graphics("http://swcarpentry.github.io/git-novice/fig/phd101212s.
 
 - Time-consuming
 
-???
-
-Time related to transcribing, copy pasting, formatting references, fixing the layout of your document after you've added another Table or Figure in Word, time related to tracking down mistakes or other sources of differences when you all of a sudden get a different result...
 
 --
 
 - Error-prone (e.g., rounding or transcription errors)
 
-???
-
-This is something that came through very clearly in Mike Frank's talk - the prevalence of statistical reporting errors in psychological science. 
 
 --
 
@@ -194,9 +173,6 @@ This is something that came through very clearly in Mike Frank's talk - the prev
 
 - Difficult to maintain and update (endless rewriting and reformatting...)
 
-???
-
-Multiple inconsistent versions of code, data, or both
 
 --
 
@@ -251,17 +227,11 @@ Less...
 
  ⬇️ Error-prone  
  
-???
- 
-In the conceptual talk on reproducible manuscripts, Mike very clearly discussed the rationale behind reproducible manuscripts, with one of them being error detection and mitigation. To borrow Mike's words, a reproducible report is easier to audit, and because we avoid manual tasks like copy pasting, we reduce opportunities for error.  
  
 --
 
  ⬇️ Time-consuming
  
-???
-
-Maya, Percy, and Mike also discussed this in their earlier talks in the lecture series: when you invest in reproducible research practices, there's a steep learning curve at first - but it is immensely time-saving in the long term. To again borrow Mike's words, It's easier to build on your prior work by re-using your code, and there's no need to start from scratch each time or remind yourself what you did previously. 
  
 --
 
@@ -279,9 +249,7 @@ More...
 
  ⬆️ Transparent  (for others **and** yourself)
  
-???
 
-Like Maya said in her conceptual talk on reproducible data analysis - investing in reproducible practices doesn’t just benefit other people, it benefits your future self - it’s an investment in your future sanity.
 
 ---
 background-image: url("https://bookdown.org/yihui/rmarkdown/images/hex-rmarkdown.png")
@@ -325,10 +293,6 @@ Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 
 - Create dynamic analysis documents that combine code, output (incl. figures and tables), and writing
 
-???
-
-A dynamic scientific report interleaves the written report with blocks of code used to conduct the analyses. The text is automatically formatted as a scientific paper in several potential styles. When the text is formatted, the code blocks are evaluated and their results are insterted in the text, or rendered as figures and tables. Dynamic document generation replaces the classical approach of using separate programs to write prose and conduct analyses, and then manually copy-pasting analysis results into the text. When revisions require major changes to the analyses, all results, figures and tables
-are automatically updated. The flexibility in output formats also means that a manuscript can be rendered to PDF, to word, or even to a poster, website, or blog post.
 
 --
 
@@ -811,9 +775,6 @@ background-size: 25%
 **papaja** = **P**reparing **APA** **j**ournal **a**rticles  
 created by [Frederik Aust](https://github.com/crsh/papaja)
 
-???
-
-If you do not submit to APA journals, no need for despair, because there are many other packages out there to help you write a fully reproducible report in the style of your choosing. If this applies to you, I'd suggest taking a look at the R package rticles, without an A. rticles includes templates for a wide variety of formats and journals, including those required by Elsevier, Frontiers, PLOS, PNAS, Sage, Springer, and Taylor & Francis.  
 
 ---
 
@@ -1022,13 +983,7 @@ knitr::include_graphics("https://github.com/allisonhorst/stats-illustrations/blo
 
 Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 
-???
 
-If I had more time, I would have discussed:
-- Version control with Git and GitHub
-- Reproducible software environments, with renv or groundhog or Docker.  
-
-In the chat, we're posting links to two papers that can further help you on your journey to reproducible research with R, and that also discuss version control and reproducible software environments.
 
 ---
 
@@ -1041,6 +996,3 @@ class: center, middle
 
 **Questions?** Reach out to me at **shilaan@stanford.edu**
 
-???
-
-My solutions are definitely not perfect, but as always I think that some solution is better than no solution. To maximize uptake, I personally believe it's important to strike a balance between rigor and ease of use. 
